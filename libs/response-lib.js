@@ -3,7 +3,6 @@ export function success(body) {
 }
 
 export function failure(body) {
-  console.log('getting here');
   return buildResponse(500, body);
 }
 
